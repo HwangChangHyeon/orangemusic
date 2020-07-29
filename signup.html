@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/signup.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif+KR&display=swap" rel="stylesheet">
+    <title> Orange Music </title>
+  </head>
+  <body>
+    <header>
+      <div>
+        <img src="img/orange.png" alt="logo"><h1><a href="index.html">MUSIC</a></h1>
+      </div>
+    </header>
+    <section>
+      <div>
+        <div class="emptyarea">
+        </div>
+        <div class="signup">
+          <form>
+            <h1> 회원가입 </h1>
+            <span>* 아이디</span><input type="text" name="id" placeholder="   아이디를 입력하세요." required>
+            <span>* 비밀번호</span><input type="password" name="password" placeholder="   패스워드를 입력하세요." required>
+            <span></span><span class="explain">6~20자 영문 대소문자, 숫자, 특수문자 총 2가지 이상 조합</span>
+            <span class="password1"></span><input type="password" name="password" placeholder="   다시 한 번 입력하세요." class="password2" required>
+            <span>* 별명</span><input type="text" name="nickname" placeholder="   별명을 입력하세요." required>
+            <span>* 생년월일</span><input type="date" name="date" placeholder="   별명을 입력하세요." required>
+            <span>성별</span>
+            <div>
+              <input type="radio" name="gender" value="male" checked class="man"><span> 남자 </span>
+              <input type="radio" name="gender" value="female" class="man"><span> 여자 </span>
+            </div>
+            <span class="number">* 전화번호</span><input type="tel" name="phone" placeholder="  000-0000-0000" pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}" required>
+            <span class="email">* 이메일</span><input type="email" name="email" placeholder="  example@example.co.kr" required>
+            <span class="email">직업</span>
+            <select>
+              <option value="volvo">학생</option>
+              <option value="saab">군인</option>
+              <option value="opel">직장인</option>
+              <option value="audi">가수</option>
+              <option value="audi">프로듀서</option>
+              <input type="submit" value="제출" class="button">
+            </select>
+          </form>
+        </div>
+        <div class="emptyarea">
+        </div>
+      </div>
+    </section>
+    <!-- 푸터 영역 -->
+    <footer>
+      <pre>
+이용약관  |  개인정보처리방침  |  책임의 한계와 법적고지  |  회원정보  |  고객센터
+
+OrangeCopyright © ORANGE Corp. All Rights Reserved.
+      </pre>
+    </footer>
+  </body>
+</html>

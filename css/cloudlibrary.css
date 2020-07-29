@@ -1,0 +1,713 @@
+* {
+  margin:0px;
+font-family: 'Noto Serif KR', serif;
+}
+
+a {  text-decoration: none;
+      color:black;}
+
+body {
+  margin: auto;
+  width: 1920px;
+}
+
+header  {
+  display: inline-block;
+  position: relative;
+  background-color: white;
+  width: 1920px;
+  height: 100px;
+  border-bottom-style: solid;
+  border-width: 1px;
+}
+
+header img {
+  margin: 20px 15px;
+  width: 60px;
+  height: 60px;
+  float:left;
+}
+
+.sidebarnav2 span {
+  color:orange;
+  font-size:18px;
+}
+
+.sidebarnav span {
+  color:orange;
+  font-size:18px;
+}
+
+h1 {
+  display: inline-block;
+  padding-top: 25px;
+  float: left;
+}
+
+h2 {
+  display: inline-block;
+  font-size: 17px;
+  margin-left: 20px;
+  margin-top: 10px;
+  float:left;
+}
+
+.searchsubmit {
+  position: absolute;
+  width:60px;
+  height: 54px;
+  margin-left: 250px;
+  margin-top: 23px;
+  border-color: orange;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 0px 5px 5px 0px;
+  background-color: orange;
+}
+
+.searchsubmit:hover {
+  background-color: #66ff66;
+}
+
+.search {
+  position: absolute;
+  width:200px;
+  height: 50px;
+  margin-left: 50px;
+  margin-top: 23px;
+  border-color: orange;
+  border-style: solid;
+  border-radius: 5px 0px 0px 5px;
+  border-width: 1px;
+}
+
+.sns {
+  position: absolute;
+  width:300px;
+  height: 100px;
+  margin-left: 1550px;
+}
+
+.sns div img {
+  margin: 40px 4px;
+  width: 20px;
+  height: 20px;
+  float:left;
+}
+
+.sns > a {
+  text-decoration: none;
+  display: inline-block;
+  position: absolute;
+  width:220px;
+  height: 30px;
+  margin-left:20px;
+  margin-top: 28px;
+  padding-top:10px;
+  border-style: none;
+  border-radius: 5px;
+  background-color: orange;
+  font-size: 14px;
+  text-align: center;
+  color:white;
+}
+
+section  {
+  display: inline-block;
+  position: relative;
+  top:-5px;
+  width:1920px;
+  height: 1494px;
+  margin: 0px;
+}
+
+.sidebar  {
+  display: inline-block;
+  position: relative;
+  width:250px;
+  height: 1505px;
+  float: left;
+  font-size: 18px;
+  font-weight: bold;
+  border-right-style: solid;
+  border-right-width: 1px;
+}
+
+.sidebarnav li {
+  list-style-type: none;
+  margin-top: 20px;
+  margin-right: 40px;
+}
+
+.sidebarnav > li :hover {
+  color: blue;
+}
+
+.sidebarnav2 {
+  list-style-position: inside;
+  list-style-type: none;
+  text-align: left;
+  font-size: 14px;
+  padding:0px;
+  padding-left:10px;
+}
+
+.weather {
+  height: 50px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  float: left;
+}
+
+.weather1 {
+  margin-left: 85px;
+  margin-top: 13px;
+  width:165px;
+  height: 37px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  text-align: left;
+  font-size: 15px;
+}
+
+.weather img {
+  width: 35px;
+  height: 35px;
+  margin-top: 7px;
+  margin-left: 50px;
+  margin-right: 20px;
+  float: left;
+}
+
+.title {
+  float:left;
+  font-weight: bold;
+  font-size: 20px;
+  color:orange;
+  padding-top: 10px;
+  padding-left: 30px;
+  display: inline-block;
+  width: 1638px;
+  height: 40px;
+  border-bottom-style: solid;
+  border-bottom-color:black;
+  border-bottom-width: 1px;
+}
+
+.cloudtitle {
+  background-color: rgba(245,211,65);
+  float:left;
+  display: inline-block;
+  width: 1668px;
+  height: 50px;
+  border-bottom-style: solid;
+  border-bottom-color:black;
+  border-bottom-width: 1px;
+}
+
+.cloudtitle div {
+  float:left;
+  width:100px;
+  height: 36px;
+  border-right-style: solid;
+  border-right-width: 1px;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 13px;
+}
+
+.cloudtitle img {
+  width:30px;
+  height: 30px;
+  padding:0px;
+}
+
+.background {
+  float:left;
+  display: inline-block;
+  width: 1200px;
+  height: 400px;
+  border-bottom-style: solid;
+  border-bottom-color:black;
+  border-bottom-width: 1px;
+}
+
+.background img{
+  width:1200px;
+  height: 400px;
+  opacity: 0.5;
+}
+
+.background .name {
+  color:white;
+  position: absolute;
+  font-weight: bold;
+  text-align: left;
+  font-size:18px;
+  padding-top: 9px;
+  padding-left:20px;
+  background-color: black;
+  width:250px;
+  height: 40px;
+  top:200px;
+  left:500px;
+  float:left;
+}
+
+.background .location {
+  color:white;
+  position: absolute;
+  font-weight: bold;
+  text-align: center;
+  font-size:18px;
+  padding-top: 5px;
+  background-color: black;
+  width:100px;
+  height: 30px;
+  top:250px;
+  left:500px;
+  float:left;
+}
+
+.accountname {
+  width:469px;
+  height: 161px;
+}
+
+.account .name {
+  color:white;
+  position: absolute;
+  font-weight: bold;
+  text-align: left;
+  font-size:18px;
+  padding-top: 9px;
+  padding-left:20px;
+  background-color: black;
+  width:250px;
+  height: 40px;
+  top:140px;
+  left:1500px;
+  float:left;
+}
+
+.account .location {
+  color:white;
+  position: absolute;
+  font-weight: bold;
+  text-align: center;
+  font-size:18px;
+  padding-top: 5px;
+  background-color: black;
+  width:100px;
+  height: 30px;
+  top:190px;
+  left:1500px;
+  float:left;
+}
+
+
+.account {
+  float:left;
+  display: inline-block;
+  width: 468px;
+  height: 400px;
+  border-bottom-style: solid;
+  border-bottom-color:black;
+  border-bottom-width: 1px;
+  border-left-style: solid;
+  border-left-color:black;
+  border-left-width: 1px;
+}
+
+.follower {
+  font-size:18px;
+  font-weight: bold;
+  text-align: center;
+  margin-left: -1px;
+  width:232px;
+  height:60px;
+  float:left;
+  border-left-width: 1px;
+  border-left-style:solid;
+  float:left;
+}
+.follower span {
+  position: absolute;
+  margin-left: -20px;
+  margin-top: 10px;
+  font-size:20px;
+}
+
+.followerimg {
+  font-size: 18px;
+  font-weight: bold;
+  padding-top: 30px;
+  width: 468px;
+  height: 180px;
+  float:left;
+  text-align: center;
+}
+
+.albumimg {
+  width: 1200px;
+  height: 200px;
+}
+
+.albumimg > div {
+  width: 400px;
+  height: 200px;
+  float: left;
+}
+
+.albumimg > div > img {
+  width : 200px;
+  height: 150px;
+  margin-left: 100px;
+  margin-top: 25px;
+}
+
+.albumtitle > div {
+  width : 400px;
+  height: 100px;
+  text-align: center;
+  float:left;
+}
+
+.albumtitle > div > span {
+  display: inline-block;
+  width: 400px;
+  font-size:18px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.albumtitle > div > img {
+  display: block;
+  width: 30px;
+  height: 30px;
+  margin-top: 20px;
+  margin-left: 185px;
+}
+
+.upload img {
+  width: 30px;
+  height: 30px;
+  margin-left: 190px;
+  margin-right: 10px;
+}
+
+.uploadtext {
+  padding-top: 30px;
+  font-size:20px;
+  font-weight: bold;
+}
+
+.uploadbox {
+  margin-top: 25px;
+  margin-left: 115px;
+  width : 250px;
+  height: 150px;
+  background-color:rgb(224, 224, 224);
+  border-style: solid;
+  border-width: 1px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.followerimg img {
+  margin-top: 30px;
+  width : 30px;
+  height: 30px;
+}
+
+.music {
+  float:left;
+  display: inline-block;
+  width: 1200px;
+  height: 400px;
+  border-bottom-style: solid;
+  border-bottom-color:black;
+  border-bottom-width: 1px;
+}
+
+.music > span {
+  display: inline-block;
+  width:1160px;
+  padding-top:20px;
+  padding-left: 40px;
+  font-size:20px;
+  font-weight: bold;
+  color:orange;
+}
+
+.comment > span {
+  display: inline-block;
+  width:760px;
+  padding-top:20px;
+  padding-left: 40px;
+  font-size:20px;
+  font-weight: bold;
+  color:orange;
+}
+
+.dailytext {
+  display: inline-block;
+  width:629px;
+  padding-top:20px;
+  padding-left: 40px;
+  font-size:20px;
+  font-weight: bold;
+  color:orange;
+}
+
+.plus {
+  display: inline-block;
+  font-weight: bold;
+}
+
+.dailyimg1 {
+  width:15px;
+  height: 15px;
+}
+
+.dailyimg2 {
+  margin-top: 20px;
+  margin-left: 50px;
+  width:500px;
+  height: 300px;
+}
+
+.upload {
+  float:left;
+  display: inline-block;
+  width: 468px;
+  height: 400px;
+  border-bottom-style: solid;
+  border-bottom-color:black;
+  border-bottom-width: 1px;
+  border-left-style: solid;
+  border-left-color:black;
+  border-left-width: 1px;
+}
+
+.comment {
+  float:left;
+  display: inline-block;
+  width: 800px;
+  height: 600px;
+  border-bottom-style: solid;
+  border-bottom-color:black;
+  border-bottom-width: 1px;
+}
+
+.daily {
+  float:left;
+  display: inline-block;
+  width: 868px;
+  height: 600px;
+  border-bottom-style: solid;
+  border-bottom-color:black;
+  border-bottom-width: 1px;
+  border-left-style: solid;
+  border-left-color:black;
+  border-left-width: 1px;
+}
+
+.instagramicon {
+  width:868px;
+  height: 40px;
+  padding-left: 40px;
+}
+
+.instagramicon > img {
+  margin-top: 10px;
+  margin-left: 5px;
+  width : 30px;
+  height: 30px;
+}
+
+.liked {
+  width:800px;
+  display: inline-block;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-left: 45px;
+}
+
+.dailyname {
+  display: inline-block;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-left: 45px;
+}
+
+.dailynormaltext {
+  display: inline-block;
+  width: 720px;
+}
+
+.dailytag {
+  display: inline-block;
+  width: 820px;
+  margin-top: 40px;
+  margin-left: 45px;
+  color: rgb(41, 128, 185);
+}
+
+.time {
+  display: inline-block;
+  width: 820px;
+  font-size: 13px;
+  margin-top: 5px;
+  margin-left: 45px;
+  color: rgb(149, 165, 166);
+}
+
+footer  {
+  display: inline-block;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  padding-top: 70px;
+  width: 1920px;
+  height: 150px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  text-align: center;
+  background-color: orange;
+  opacity: 0.7
+}
+
+pre {
+  font-weight: bold;
+}
+
+.dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  font-size: 13px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.comment > div {
+  margin-top: 50px;
+  margin-left: 43px;
+  width:650px;
+  height: 60px;
+  border-top-width: 1px;
+  border-top-style: solid;
+  float:left;
+}
+
+
+.comment span {
+  display: inline-block;
+  width:650px;
+  padding-top:20px;
+  padding-left: 40px;
+  font-size:20px;
+  font-weight: bold;
+  color:orange;
+
+}
+
+.commenttext {
+  width: 650px;
+  height: 100px;
+  margin-left: 40px;
+  margin-top: 20px;
+  border-radius: 10px;
+  border-width:1px;
+  border-style: solid;
+  border-color:#BDBDBD;
+}
+
+.commentsubmit {
+  background-color: rgb(94, 94, 94);
+  margin-top: -1px;
+  margin-left: 10px;
+  width: 80px;
+  height: 100px;
+  border-style: none;
+  border-radius: 10px;
+  color:white;
+}
+
+.name2 {
+  margin-top: 15px;
+  padding-top:2px;
+  width:80px;
+  height: 30px;
+  float:left;
+  font-weight: bold;
+  text-align: center;
+}
+
+.date {
+  color:gray;
+  margin-top: 15px;
+  padding-top:5px;
+  width:80px;
+  height: 30px;
+  float:left;
+  text-align: center;
+  font-size:12px;
+}
+.delete {
+  color:gray;
+  margin-left: 340px;
+  margin-top: 15px;
+  padding-top:5px;
+  width:150px;
+  height: 30px;
+  float:left;
+  text-align: center;
+  font-size:12px;
+}
+
+.data {
+  color:gray;
+  margin-top: 5px;
+  margin-left: 7px;
+  padding-top:5px;
+  height: 30px;
+  float:left;
+  text-align: center;
+  font-size:14px;
+}
